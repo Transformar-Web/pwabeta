@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplication PWA</title>
+    <meta name="description" content="Nuesta Primera PWA hecha con html css y vanilla javascript.">
+
+    <!-- <meta name="theme-color" content="#111111"> -->
+    <meta name="MobileOptimized" content="width">
+    <meta name="HeadheldFriendly" content="true">
+
+    <link rel="icon" type="image/svg" href="img/logoPWA.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/css/lightgallery.min.css" integrity="sha512-gk6oCFFexhboh5r/6fov3zqTCA2plJ+uIoUx941tQSFg6TNYahuvh1esZVV0kkK+i5Kl74jPmNJTTaHAovWIhw==" crossorigin="anonymous" />
+
+
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <img src="img/logoPWA.svg" class="logoPWA">
+            <h1 class="TextLogo">APP PWA</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section1">
+            <h2 class="h2Section1">Descripción</h2>
+            <p class="pSection1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum. Saepe quibusdam modi deleniti quae officiis iste debitis expedita odio nostrum qui at optio iusto, sequi cum inventore quisquam repellendus, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsam molestiae eligendi, soluta obcaecati quibusdam non explicabo magnam reprehenderit iure! Nisi, dolorum sed! At voluptatibus eveniet odio quia ab consectetur?</p>
+
+            <img src="img/img3.jpg" class="imgSection1">
+        </section>
+
+        <div class="gallery">
+     
+            <a href="img/img4.jpg" class="enlaceImg">
+                <img src="img/img4.jpg" alt="imagen 1" class="img">
+            </a>
+            <a href="img/img5.jpg" class="enlaceImg">
+                <img src="img/img5.jpg" alt="imagen 1" class="img">
+            </a>
+            <a href="img/img9.jpg" class="enlaceImg">
+                <img src="img/img9.jpg" alt="imagen 1" class="img">
+            </a>
+            <a href="img/img8.jpg" class="enlaceImg">
+                <img src="img/img8.jpg" alt="imagen 1" class="img">
+            </a>
+            <a href="img/img6.jpg" class="enlaceImg">
+                <img src="img/img6.jpg" alt="imagen 1" class="img">
+            </a>
+            <a href="img/img7.jpg" class="enlaceImg">
+                <img src="img/img7.jpg" alt="imagen 1" class="img">
+            </a>
+    
+        </div>
+
+        
+    </main>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script>
+        lightGallery(document.querySelector(".gallery"));
+    </script>
+</body>
+</html>

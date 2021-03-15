@@ -1,0 +1,42 @@
+{
+  "name": "APP PWA",
+  "short_name": "APP PWA",
+  "description": "Nuesta Primera PWA hecha con html css y vanilla javascript.",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "./?utm_source=web_app_manifest" ,
+  "scope": "./",
+  "lang": "es",
+  "icons": [
+    {
+        "src": "img/logoPWA(2).png",
+        "sizes": "512x512",
+        "type": "png"
+    },
+    {
+        "src": "img/logoPWA.png",
+        "sizes": "192x192",
+        "type": "png"
+    },
+    {
+      "src": "img/logoPWA(4).png",
+      "sizes": "144x144",
+      "type": "png" 
+    },
+    {
+        "src": "img/logoPWA(1).png",
+        "sizes": "64x64",
+        "type": "png" 
+    },
+    {
+        "src": "img/logoPWA(3).png",
+        "sizes": "32x32",
+        "type": "png" 
+    }
+    
+    
+  ]
+
+}
