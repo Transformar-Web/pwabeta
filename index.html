@@ -68,6 +68,14 @@
     <script src="js/lightgallery.min.js"></script>
     <script>
         lightGallery(document.querySelector(".gallery"));
+
+
+        const isApple = ['iPhone', 'iPad', 'iPod', 'iPad Simulator', 'iPhone Simulator', 'iPod Simulator',] ;
+        
+        if(isApple.includes(navigator.platform)){
+            alert("Dispositivo IOS");
+        }
+
     </script>
 </body>
 </html>
